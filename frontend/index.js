@@ -34,7 +34,7 @@ function moduleProject3() {
     card.classList.add('learner-card')
 
     const nameP = document.createElement('p')
-    nameP.textContent = learner.fulllName
+    nameP.textContent = `${learner.fullName}`
 
     const idElement = document.createElement('p')
     idElement.textContent = `Learner ID: ${learner.id}`
